@@ -350,11 +350,77 @@ color:#4070f4;
     color: #fff;
 }
 
-/*Contact Me CSS*/
-.contact{
+
+/*My Portfolio CSS*/
+.portfolio{
     background:#f0f8ff;
     padding: 20px 0;
 }
+.portfolio .boxes{
+    min-height:300px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.portfolio .boxes .box{
+    width: 48%;
+    height:250px; 
+    margin-top:30px;
+    transition: all 0.5s ease;
+}
+.portfolio .boxes .box .box1{
+    width:100%;
+    height:250px;
+    background-color: #989da8;
+    border-radius: 20px;
+}
+.portfolio .boxes .box .box1 a img{
+    width:50%;
+    height:250px;
+}
+.portfolio .boxes .box .box2{
+    width:100%;
+    height:250px;
+    background-color: #4070F4;
+    border-radius: 20px;
+    
+}
+.portfolio .boxes .box:hover{
+    transform: rotate(24deg);
+}
+.portfolio .boxes .box .box2 a img{
+    width:50%;
+    height:250px;
+}
+.portfolio .boxes .box .box3{
+    width:100%;
+    height:250px;
+    background-color: #4070F4;
+    border-radius: 20px;
+    
+}
+.portfolio .boxes .box .box3 a img{
+    width:50%;
+    height:250px;
+}
+.portfolio .boxes .box .box4{
+    width:100%;
+    height:250px;
+    background-color: #989da8;
+    border-radius: 20px;
+    
+}
+.portfolio .boxes .box .box4 a img{
+    width:50%;
+    height:250px;
+}
+
+
+
+
+
+/*Contact Me CSS*/
 .contact .text{
     text-align:center;
     margin:auto;
@@ -420,6 +486,14 @@ footer .text span a:hover{
             width: 95%;
             }
 }
+/*@media(max-width: 1115px){
+    .portfolio .boxes{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+}*/
 @media (max-width:1090px){
     .about .about-details{
         flex-direction: column;   
@@ -444,6 +518,17 @@ footer .text span a:hover{
     .about .about-details .right img{
         height:350px;
         width: 350px;
+    }
+    .portfolio .boxes .box{
+       width:80%;
+        flex-direction:column;
+        align-items: center;
+        justify-content:space-between;
+    }
+}
+@media (max-width:828px){
+    .navbar .media-icons a{
+        display:none;
     }
 }
 @media (max-width:750px){
@@ -472,9 +557,7 @@ footer .text span a:hover{
     nav.sticky .navbar .menu li a:hover{
         color:#4070f4;
     }
-    .navbar .media-icons a{
-        display:none;
-    }     
+       
     nav .menu-btn,
 .navbar .cancel-btn{
     display: block;
