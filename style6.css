@@ -369,52 +369,32 @@ color:#4070f4;
     margin-top:30px;
     transition: all 0.5s ease;
 }
-.portfolio .boxes .box .box1{
-    width:100%;
-    height:250px;
-    background-color: #989da8;
-    border-radius: 20px;
-}
+
 .portfolio .boxes .box .box1 a img{
-    width:50%;
-    height:250px;
-}
-.portfolio .boxes .box .box2{
     width:100%;
     height:250px;
-    background-color: #4070F4;
     border-radius: 20px;
-    
-}
-.portfolio .boxes .box:hover{
-    transform: rotate(24deg);
 }
 .portfolio .boxes .box .box2 a img{
-    width:50%;
-    height:250px;
-}
-.portfolio .boxes .box .box3{
-    width:100%;
-    height:250px;
-    background-color: #4070F4;
-    border-radius: 20px;
-    
-}
-.portfolio .boxes .box .box3 a img{
-    width:50%;
-    height:250px;
-}
-.portfolio .boxes .box .box4{
     width:100%;
     height:250px;
     background-color: #989da8;
     border-radius: 20px;
-    
+}
+.portfolio .boxes .box .box3 a img{
+    width:100%;
+    height:250px;
+    background-color: #989da8;
+    border-radius: 20px;
 }
 .portfolio .boxes .box .box4 a img{
-    width:50%;
+    width:100%;
     height:250px;
+    background-color: #989da8;
+    border-radius: 20px;
 }
+
+
 
 
 
@@ -603,4 +583,3 @@ footer .text span a:hover{
         flex-direction:column;
     }
 }
-
