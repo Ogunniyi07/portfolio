@@ -275,7 +275,6 @@ section .button button:hover{
 }
 .skill-detail .left p{
     color:#0E2431;
-    text-align:justify;
 }
 .skill-detail .left .experience{
     display:flex;
