@@ -61,11 +61,11 @@ nav .navbar .menu li{
 .navbar .menu li a{
     font-size:18px;
     font-weight:500;
-    color:#0E2431;
+    color:#4070F4;
     transition: all 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color:#4070F4;
+    color:#0E2431;
 }
 nav.sticky .navbar .menu li a{
     color:#FFF;
@@ -316,48 +316,9 @@ section .button button:hover{
     color:#4070f4;
 }
 
-/*My Service CSS*/
-.services .boxes{
-    display:flex;
-    justify-content:space-between;
-    flex-wrap: wrap;
-}
-.services .boxes .box{
-    width:calc(100% /3 - 20px);
-    margin:20px 0;
-    border-radius:12px;
-    box-shadow:0 5px 10px rgba(0, 0, 0, 0.15);
-    padding:20px 10px;
-    text-align:center;
-    transition: all 0.4s ease;
-}
-.services .boxes .box:hover{
-    background:#4070f4;
-    color:#fff;
-}
-.services .boxes .box .icon{
-    height:50px;
-    width:50px;
-    background: #4070f4;
-    color:#fff;
-    border-radius:50%;
-    text-align: center;
-    line-height:50px;
-    margin:0 auto 10px auto; 
-    transition: all 0.4s ease;
-}
-.services .boxes .box:hover .icon{
-background: #fff;
-color:#4070f4;
-}
-.services .boxes .box:hover .topic{
-    color: #fff;
-}
-
-
 /*My Portfolio CSS*/
 .portfolio{
-    background:#f0f8ff;
+    background:#ffffff;
     padding: 20px 0;
 }
 .portfolio .boxes{
